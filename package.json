@@ -1,0 +1,22 @@
+{
+  "name": "detect-device",
+  "author": "saikstin",
+  "description": "Lite device detection library to use as middleware in Express.js",
+  "keywords": ["browser","mobile","detection","user-agent","useragent","express","layout","view routing","desktop","phone","tablet","tv","bot"],
+  "version": "0.0.1",
+  "main": "./device.js",
+  "private": false,
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "express": ">=4.x.x",
+  },
+  "scripts": {},
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saikstin/detect-device.git"
+  }
+}
