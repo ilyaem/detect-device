@@ -4,7 +4,7 @@
   "description": "Lite device detection library to use as middleware in Express.js",
   "keywords": ["browser","mobile","detection","user-agent","useragent","express","layout","view routing","desktop","phone","tablet","tv","bot"],
   "version": "0.0.1",
-  "main": "./device.js",
+  "main": "./detect-device.js",
   "private": false,
   "engines": {
     "node": ">=0.10"
