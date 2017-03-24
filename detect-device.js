@@ -47,7 +47,9 @@
     var root = path.join(process.cwd(), 'views');
     
     exports.bind = function(options) {
-        for(var key in options) _options[key] = options[key];
+        if(options) {
+            for(var key in options) _options[key] = options[key];
+        }
         
         for(var type of _types) {
             // checking if route folders exist at least
